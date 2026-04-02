@@ -49,7 +49,7 @@ Despite having lower raw Memory Throughput percentage, our implementation reduce
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/flash-attention.git
+git clone https://github.com/mbuchel/flash-attention.git
 cd flash-attention
 
 # Install dependencies
