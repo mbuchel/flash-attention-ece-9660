@@ -3,7 +3,7 @@
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)
 [![Course: ECE 9660](https://img.shields.io/badge/Course-ECE_9660-Purple)](https://www.eng.uwo.ca/electrical/graduate/courses/index.html)
 
-This repository contains a high-performance reimplementation of **FlashAttention-v2** using **Triton**. Developed as part of the **ECE 9660 (Advanced Computer Systems)** course at **Western University**, this project demonstrates how hardware-aware algorithmic optimizations can outperform standard implementations, particularly for long-context windows.
+This repository contains a high-performance reimplementation of **FlashAttention-v2** using **Triton**. Developed as part of the **ECE 9660 (Select topics in SE Large Language Vision Models)** course at **Western University**, this project demonstrates how hardware-aware algorithmic optimizations can outperform standard implementations, particularly for long-context windows.
 
 ## 🚀 The Result: Outperforming the Official Implementation
 
