@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flash-attention"
+version = "0.0.1"
+description = "A simple PyTorch/Triton project"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "AGPL-3.0+"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "triton>=2.0.0; platform_system=='Linux'",
+    "flash-attn",
+    "numpy",
+    "matplotlib",
+    "pandas"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
